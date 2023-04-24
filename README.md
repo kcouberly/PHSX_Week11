@@ -4,7 +4,7 @@
 
 Performs scikit learn's Kmeans cluster algorithm on mixture data
 
-Data generated using np.random.rand() about 3 center values [1,1] , [2,1] , and [3,1]
+Data generated using np.random.rand() about 3 center values [1,1] , [2,1] , and [2,2]
 
 File runs without inputs
 
