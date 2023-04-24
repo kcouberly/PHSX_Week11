@@ -58,9 +58,9 @@ for y in range(3):
     x_values.append(tempx)
     y_values.append(tempy)
     
-plt.plot(x_values[0],y_values[0],'.',label='center [2,1]')
-plt.plot(x_values[1],y_values[1],'.',label='center [1,1]')    
-plt.plot(x_values[2],y_values[2],'.',label='center [2,2]')
+plt.plot(x_values[0],y_values[0],'.',label='cluster 1')
+plt.plot(x_values[1],y_values[1],'.',label='cluster 2')    
+plt.plot(x_values[2],y_values[2],'.',label='cluster 3')
 plt.xlabel('x value')
 plt.ylabel('y value')
 plt.legend()
